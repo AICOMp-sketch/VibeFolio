@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jondie Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">✨ Porfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h2>Hi, I’m <span class="highlight">John Doe</span></h2>
+      <h3><span id="typed-text"></span></h3>
+      <p>A passionate frontend + backend developer based in 🇵🇭 Philippines</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" data-aos="fade-right">
+    <h2>👨‍💻 About Me</h2>
+    <p>
+      I'm a software developer who loves building apps and websites with clean, modern design. I specialize in B4A, Supabase, HTML/CSS, and JavaScript. I also design in Figma!
+    </p>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <h2>🧠 Skills</h2>
+    <div class="swiper mySwiperSkills">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><h3>💻 HTML / CSS / JS</h3><p>Web Development Basics</p></div>
+        <div class="swiper-slide"><h3>📱 B4A</h3><p>Android App Development</p></div>
+        <div class="swiper-slide"><h3>🛠️ Supabase</h3><p>Realtime + Auth</p></div>
+        <div class="swiper-slide"><h3>🎨 Figma</h3><p>UI/UX Design</p></div>
+        <div class="swiper-slide"><h3>⚙️ Git & CI/CD</h3><p>Version Control & Deployment</p></div>
+        <div class="swiper-slide"><h3>🧠 Problem Solving</h3><p>Critical Thinking Skills</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects" data-aos="zoom-in">
+    <h2>🚧 Projects</h2>
+    <div class="swiper mySwiperProjects">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <h3>Design1</h3>
+          <p>A stylish animated user registration form with smooth UI.</p>
+        </div>
+        <div class="swiper-slide">
+          <h3>Design2</h3>
+          <p>Creative loading animation using CSS, fully responsive.</p>
+        </div>
+        <div class="swiper-slide">
+          <h3>Design3</h3>
+          <p>The app that scans text from images using Supabase + OCR.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" data-aos="fade-left">
+    <h2>📜 Certifications</h2>
+    <div class="swiper mySwiperCerts">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://marketplace.canva.com/EAFHBiEZGD8/1/0/1600w/canva-red-and-yellow-minimalist-employee-of-the-month-certificate-67ATPnoOO0M.jpg" alt="Frontend Web Developer">
+          <h3>Frontend Web Developer</h3>
+          <p>Issued by Coursera - 2024</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://marketplace.canva.com/EAFIEvneNCM/1/0/1600w/canva-golden-elegant-certificate-of-appreciation-0bN-aLORS9U.jpg" alt="B4A Certificate">
+          <h3>Backend Web Developer</h3>
+          <p>Issued by Udemy - 2023</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://marketplace.canva.com/EAFH_f4DrV0/2/0/1600w/canva-gold-luxury-certificate-of-completion-template-yz6w30Bp85w.jpg" alt="Supabase Certificate">
+          <h3>System Design</h3>
+          <p>Issued by Supabase - 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>📞 Contact Me</h2>
+    <p>Let’s work together!<br>Email me at <a href="mailto:jondie@example.com">example@website.com</a></p>
+    <div class="socials">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Facebook</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Jondie Dev. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
